@@ -4,17 +4,18 @@
 </head>
 <body>
   <script type="text/javascript">
-    function house(loc, col, ag, st) {
-      this.location = loc;
-      this.color = col;
-      this.age = ag;
-      this.story = st;
+    function house() {
+      this.locaiton = "Preet Vihar";
+      this.color = "Red";
+
     }
 
-    var obj = new house("Krishna Nagar", "Orange", "1998", "Two");
-    document.write("Locaiton is = " + obj.location + "<br>");
-    document.write("Color is = " + obj.color + "<br>");
+    var obj_house = new house();
+
+    document.write("Location is = " + obj_house.location + "<br>");
+    document.write("Color is = " + obj_house.color + "<br>");
   </script>
 
 </body>
+
 </html>
