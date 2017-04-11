@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title>Javascript</title>
+</head>
+<body onload="showAlert()">
+  <script type="text/javascript">
+    function showData(x) {
+      alert("You have submitted " + x.field1.value);
+    }
+  </script>
+  <form id="myForm" onsubmit="showData(this)">
+    Enter Name: <input type="text" id="field1">
+    <br>
+    <br>
+    <input type="submit" value="submit">
+  </form>
+</body>
+
+</html>
