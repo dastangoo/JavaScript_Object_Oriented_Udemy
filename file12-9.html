@@ -1,0 +1,17 @@
+<html>
+<head>
+  <title>Javascript</title>
+</head>
+<body>
+  <script type="text/javascript">
+    function showData() {
+      var data = document.getElementById("text1").value;
+      document.getElementById("myHeading").innerHTML = data;
+    }
+  </script>
+  <input type="text" id="text1" onkeydown="showData()">
+  <br>
+  <h1 id="myHeading"></h1>
+  </body>
+
+</html>
