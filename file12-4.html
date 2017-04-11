@@ -1,0 +1,16 @@
+<html>
+<head>
+  <title>Javascript</title>
+</head>
+<body>
+  <script type="text/javascript">
+    function uppercase() {
+      var data = document.getElementById("user").value;
+      document.getElementById("convert").value = data.toUpperCase();
+    }
+  </script>
+  Name: <input type="text" id="user" onblur="uppercase()"><br><br>
+  Converted: <input type="text" id="convert"><br><br>
+</body>
+
+</html>
