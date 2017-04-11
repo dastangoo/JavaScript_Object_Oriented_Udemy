@@ -1,0 +1,24 @@
+<html>
+<head>
+  <title>Javascript</title>
+</head>
+<body>
+  <script type="text/javascript">
+    function windowOpen() {
+      myWindow = window.open("http://www.google.com");
+    }
+
+    function closeWindow() {
+      myWindow.close();
+    }
+
+    function windowStatus() {
+      window.status = event.clientX + ":" + event.clientY;
+    }
+    document.onmousemove = windowStatus();
+  </script>
+  <input type="button" value = "Open" value="Open" onclick="windowOpen()">
+  <input type="button" value="Close" value="Close" onclick="closeWindow()">
+</body>
+
+</html>
