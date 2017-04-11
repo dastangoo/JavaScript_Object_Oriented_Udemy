@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title>Javascript</title>
+</head>
+<body onkeypress="keyPress(event)">
+  <script type="text/javascript">
+
+    function keyPress(event) {
+      x = event.which || event.keyCode;
+      document.getElementyById("data").innerHTML = x;
+    }
+
+  </script>
+
+  <p id="data"></p>
+
+  </body>
+
+</html>
