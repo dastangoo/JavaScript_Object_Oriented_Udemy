@@ -1,0 +1,15 @@
+<html>
+<head>
+  <title>Javascript</title>
+</head>
+<body>
+  <script type="text/javascript">
+    function caseCheck(){
+      var x = document.getElementById("name").value;
+      document.getElementById("name").value = x.toUpperCase();
+    }
+  </script>
+  Enter name: <input type="text" id="name" onblur="caseCheck()">
+  </body>
+
+</html>
