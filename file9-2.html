@@ -1,0 +1,25 @@
+<html>
+<head>
+  <title>Javascript</title>
+</head>
+<body>
+  <script type="text/javascript">
+    var count = 0;
+    var time;
+
+    function myCount() {
+      document.getElementById("text").value = count;
+      count++;
+      time = setTimeout(myCount, 1000);
+    }
+
+    function stopCount() {
+      clearTimeout(time);
+    }
+  </script>
+  <input type="button" value="Start Count" onclick="myCount()">
+  <input type="text" id="text">
+  <input type="button" value="Stop Count" onclick="stopCount()">
+</body>
+
+</html>
