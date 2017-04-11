@@ -1,0 +1,16 @@
+<html>
+<head>
+  <title>Javascript</title>
+</head>
+<body onload="showAlert()">
+  <script type="text/javascript">
+    function showActivity(x, mycolor) {
+      x.style.background = mycolor;
+    }
+  </script>
+  <div id="myDiv1" onmousedown="showActivity(this,'red')">Click this area</div>
+  <div id="myDiv2" onmousedown="showActivity(this,'green')">Click this area</div>
+  <div id="myDiv3" onmousedown="showActivity(this,'blue')">Click this area</div>
+</body>
+
+</html>
