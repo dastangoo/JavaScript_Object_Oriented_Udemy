@@ -1,0 +1,17 @@
+<html>
+<head>
+  <title>Javascript</title>
+</head>
+<body>
+  <script type="text/javascript">
+    function copyText() {
+      var x = document.getElementById("field1").value;
+      document.getElementById("field2").value = x;
+    }
+  </script>
+  Field 1 : <input type="text" id="field1"><br><br>
+  Field 2 : <input type="text" id="field2"><br><br>
+  <input type="button" value="Copy Text" onclick="copyText()">
+</body>
+
+</html>
