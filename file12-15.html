@@ -1,0 +1,16 @@
+<html>
+<head>
+  <title>Javascript</title>
+</head>
+<body onload="showAlert()">
+  <script type="text/javascript">
+    function changeColor(x) {
+      document.getElementById(x.id).style.backgroundColor = "green";
+    }
+  </script>
+  <div id="myDiv" style="width:200px; height:200px; background-color:red;" ondblclick="changeColor(this)">
+    Double click on this area.
+  </div>
+</body>
+
+</html>
